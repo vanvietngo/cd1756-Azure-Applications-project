@@ -65,4 +65,4 @@ All Python dependencies are stored in the requirements.txt file. To install them
     ```bash
     brew install unixodbc
     ```
-- Check [here](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15) to add SQL Server drivers for Mac.
+- Check [here](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15) to add SQL Server drivers for Mac.# cd1756-Azure-Applications-project-Project-1
