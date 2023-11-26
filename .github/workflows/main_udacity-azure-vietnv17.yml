@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'udacity-azure-vietnv17'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7636B335DF414A078373832A69F57CD5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A0A15A0A32484149A302AC5399F6A4C9 }}
