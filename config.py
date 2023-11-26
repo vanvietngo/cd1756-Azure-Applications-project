@@ -15,6 +15,7 @@ class Config(object):
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'p@ssword1234'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE  + '?driver=ODBC+Driver+17+for+SQL+Server'
+    # 'mssql+pyodbc://udacityadmin@vietnv17-server.database.windows.net:p@ssword1234@vietnv17-server.database.windows.net:1433/vietnv17?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     ### Info for MS Authentication ###
